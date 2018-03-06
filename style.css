@@ -16,7 +16,7 @@ h4{
   color:seashell;
   font-family:helvetica;
   font-size:22px;
-  diplay: fixed;
+  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: row-reverse;
@@ -27,8 +27,8 @@ h4{
   justify-content: center;
   align-items: center;
   align-content: center;
-
 }
+
 .month{
   flex-wrap:wrap;
   flex-direction:row;
@@ -37,19 +37,29 @@ h4{
   align-content: center;
   max-width: 1000px;
   }
-.Locations{
+
+.Locations
+{
   height: 300px;
-  width: inherit;
 }
-.contact{
+
+.contact
+{
   align-items: center;
   height: 200px;
-
 }
-.footer{
+
+.footer
+{
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   padding-left: 20px;
+}
+
+{
+  height:300px
+  width:auto;
+  color:black
 
 }
